@@ -1,0 +1,9 @@
+{
+  "name": "csgo-integration-record-playback",
+  "version": "1.0.1",
+  "description": "Counter-Strike: Global Offensive Game State Integration to record and playback matches",
+  "dependencies": {
+    "request": "^2.85.0"
+  },
+  "main": "./index.js"
+}
