@@ -13,7 +13,7 @@ $ npm install csgo-integration-record-playback
 
  With `record` you just set the server `port` and a `folderName` and just start that file `node log.js` 
 
-Example [_log.js_](.examples/log.js):
+Example [_log.js_](examples/log.js):
 
 ```js
 var http = require('http');
@@ -35,7 +35,7 @@ server.listen(1337);
 ```
 
  using playback, fist parameter is the `folderName` and next the `ip` to send the data, and last the `port`
-Example [_playback.js_](.examples/_playback.js):
+Example [_playback.js_](examples/playback.js):
 
 ```js
 var Mock = require('csgo-integration-record-playback')['playback'];
